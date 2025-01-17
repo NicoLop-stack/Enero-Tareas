@@ -1,0 +1,29 @@
+/*Normalizar */
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: jetbrains mono, monospace, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: pink;
+    color: #fff;
+    padding: 1 rem 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  #fff;
+} 
