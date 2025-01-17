@@ -1,0 +1,42 @@
+/* Estilo de tarjeta de perfil */
+.tarjeta {
+    /* Tamaño y forma de la tarjeta */
+    width: 300px;
+    height: 200px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    /* Posicionamiento y alineación del contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.tarjeta h2 {
+    /* Estilos para el título */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    /* Estilos para el texto */
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tarjeta a {
+    /* Estilos para el enlace */
+    text-decoration: none;
+    color: #337ab7;
+    font-size: 16px;
+}
+
+.tarjeta a:hover {
+    /* Estilos para el enlace al pasar el mouse */
+    color: #23527c;
+}
